@@ -1,0 +1,30 @@
+.custom-hr {
+ 
+ width: 50px;
+ height: 0.19rem;
+ margin: 15px auto;
+ border: none;
+ 
+ background-color:rgb(159, 118, 35); ;
+
+  
+ 
+}
+.btn{
+  color: orange;
+  border-bottom:  solid rgb(63, 54, 54);
+  border-right: solid rgb(63, 54, 54);
+  border-top: orange solid;
+  border-left:orange solid;
+}
+.btn:hover{
+background-color: orange;
+color: white;
+border-bottom:solid rgb(63, 54, 54);
+border-right: solid rgb(63, 54, 54);
+border-top: solid orange ;
+border-left:solid orange ;
+}
+
+
+
