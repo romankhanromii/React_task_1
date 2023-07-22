@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+Create the following designs. When All is selected, show all menu items. If another tag e.g. Breakfast is slected then show only breakfast items. Make sure to add at least 2 items in each tag. Use bootstrap or tailwind css for responsiveness
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#How to test the task Step 1.1st install the node js to install all the dependancy and node pakage manager.By Running the below link to install node js https://nodejs.org/en
 
-## Available Scripts
+2.After this set up new react project with the help of the following command npx create-react-app react_task_1 #for installing new react app you can give any name as i give react_task_1 cd react_task-1 #Changing directry to npm start #starts the development server that hosts your React application on port localhost with the port number 3000 by default
 
-In the project directory, you can run:
+3.Then install bootstrip and react bootstrip by running the following command npm install bootstrap react-bootstrap #for installing bootstrip in react
 
-### `npm start`
+4.Then add the following command In the index.js file located in the src folder, to import the Bootstrap CSS import 'bootstrap/dist/css/bootstrap.min.css'
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5.In a typical React project, the src folder (source) is the main directory where you store all the source code and assets related to your application. This folder contains the actual code that you write and is the heart of your React application
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6.In react app app.js is main file where all our app related code is present
 
-### `npm test`
+7.In src folder, create a new Component called Menu.jsx. In this file, define an array of menu items with different tags
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+8.Open the App.js file in the src folder and import the Menu component to load all the data from menu component.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+9.Test the application Save all the changes, and application should now display the menu items. When you click on a specific tag, it will filter and display only the items associated with that tag. The layout should be responsive, due to Bootstrap's
